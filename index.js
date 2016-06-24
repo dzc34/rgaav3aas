@@ -38,5 +38,5 @@ app.post('/rgaav3/:format/:test', function(request, response) {
 });
 
 app.listen(app.get('port'), function() {
-    console.log('Node app is running at localhost:' + app.get('port'));
+    console.log("Le service RGAA V3 est démarré est prêt à l'utilisation sur le port : " + app.get('port'));
 });
