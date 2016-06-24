@@ -18,3 +18,12 @@ $ PORT=8888 node index
 ```
 
 ## Lancer une vérification
+*Lancer la vérification de la conformité basé sur tous les tests automatisables RGAA. Le résulat est renvoyé sous format JSON.*
+```
+$ curl -X POST -H "Content-Type: text/html" -F "data=@test.html" http://localhost:4000/rgaav3/json/all
+```
+
+*Lancer la vérification de la conformité basé sur tous les test 1.1.1. Le résulat est renvoyé sous format JSON.*
+```
+$ curl -X POST -H "Content-Type: text/html" -F "data=@test.html" http://localhost:4000/rgaav3/json/1.1.1
+```
