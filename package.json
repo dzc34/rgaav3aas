@@ -1,4 +1,17 @@
 {
+  "name": "rgaav3aas",
+  "version": "0.1",
+  "description": "Module pour valider la conformité d'un contenu au RGAA V3.",
+  "author": "Ahmed ALAMI <ahmed.alami.fr@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "keywords": [
+  "rgaa",
+  "rgaa v3",
+  "a11y",
+  "accessibility"
+  ],
   "dependencies": {
     "body-parser": "^1.15.2",
     "chai": "^3.5.0",
@@ -8,5 +21,7 @@
     "node-jsdom": "^3.1.5",
     "string-template": "^1.0.0",
     "underscore": "^1.8.3"
-  }
+  },
+  "analyze": true,
+  "license": "MIT"
 }
