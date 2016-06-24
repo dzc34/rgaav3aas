@@ -4,11 +4,11 @@
   "description": "Module pour valider la conformité d'un contenu au RGAA V3.",
   "author": "Ahmed ALAMI <ahmed.alami.fr@gmail.com>",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "keywords": [
   "rgaa",
-  "rgaa v3",
+  "rgaav3",
   "a11y",
   "accessibility"
   ],
