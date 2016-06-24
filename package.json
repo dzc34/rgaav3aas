@@ -1,6 +1,6 @@
 {
   "name": "rgaav3aas",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Module pour valider la conformité d'un contenu au RGAA V3.",
   "author": "Ahmed ALAMI <ahmed.alami.fr@gmail.com>",
   "scripts": {
