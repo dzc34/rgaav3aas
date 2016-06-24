@@ -9,7 +9,6 @@ Ce projet fournit une api exposée sous forme de services RESTful.
 $ git clone https://github.com/ahmedalami/rgaav3aas
 $ cd rgaav3aas
 $ npm install
-$ npm install
 ```
 
 ## Démarrer le serveur
