@@ -4,6 +4,20 @@ Ce projet a été établi pour aider toute personne soucieuse de vérifier la co
 
 Ce projet fournit une api exposée sous forme de services RESTful.
 
+Dans l'état actuel, voici la liste des tests automatisés :
+
+* 1.1.1
+* 1.1.2
+* 1.1.3
+* 1.1.4
+* 1.2.1
+* 2.1.1
+* 5.8.1
+* 8.1.1
+* 8.1.2
+* 8.1.3
+* 8.5.1
+
 ## Installer le projet
 ```
 $ git clone https://github.com/ahmedalami/rgaav3aas
