@@ -1,4 +1,13 @@
 {
+    "validdoctypes": ["-//W3C//DTD HTML 4.01//EN",
+        "-//W3C//DTD HTML 4.01 Transitional//EN",
+        "-//W3C//DTD HTML 4.01 Frameset//EN",
+        "-//W3C//DTD XHTML 1.0 Strict//EN",
+        "-//W3C//DTD XHTML 1.0 Transitional//EN",
+        "-//W3C//DTD XHTML 1.0 Frameset//EN",
+        "-//W3C//DTD XHTML 1.1//EN",
+        "-//W3C//DTD XHTML Basic 1.1//EN"
+    ],
     "markers": {
         "decorative-img-class": "rgaa-decorative-img",
         "layout-table-class": "rgaa-layout-table"
@@ -179,9 +188,9 @@
         "7.3.4": "",
         "7.4.1": "",
         "7.5.1": "",
-        "8.1.1": "",
-        "8.1.2": "",
-        "8.1.3": "",
+        "8.1.1": "La page Web doit avoir un type de document (balise doctype) présent.",
+        "8.1.2": "La page Web doit avoir un type de document (balise doctype) valide.",
+        "8.1.3": "La page Web doit contenir une déclaration de type de document située avant la balise html dans le code source.",
         "8.2.1": "",
         "8.2.2": "",
         "8.3.1": "",
