@@ -5,7 +5,7 @@ var assert = require('chai').assert;
 var evaluate = require("../lib/service");
 var walk = require('walk');
 
-['1.1.1', '1.1.2', '1.1.3', '1.1.4', '1.2.1', '1.2.2', '1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.3.1', '1.3.2', '1.3.3']
+['1.1.1', '1.1.2', '1.1.3', '1.1.4', '1.2.1', '1.2.2', '1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.3.1', '1.3.2', '1.3.3', '11.1.1', '11.1.5', "13.17.2"]
 .forEach(function(test) {
     var dir = "./data/" + test;
     var walker = walk.walk(dir, {});
@@ -15,8 +15,13 @@ var walk = require('walk');
         var erreurs = fileStats.name.split('.')[0].split('-')[1];
         fs.readFile(dir + "/" + fileStats.name, function(err, data) {
             evaluate(test, data.toString(), function(result) {
+              if(statut !== result[test].statut) {
                 console.log(test, fileStats.name, result[test].statut, result[test].messages)
+              }
                 assert.equal(statut, result[test].statut);
+                if(statut === 'NC' && erreurs !== undefined) {
+                  assert.equal(erreurs, result[test].messages.length, test);
+                }
             });
             next();
         });
